@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  height:100vh;
+  /*background-image: linear-gradient(#ab0c2f,lime);*/
+  background-image: url(https://outcomes.lmu.edu/wp-content/uploads/2016/03/dusk-skyline.jpg);
+  background-size:cover;
+  color:white;
+  text-shadow:2px 2px black;
+  
+}
+
+h1{
+  background-color: blue;
+  margin:0;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:white;
+  text-align:center;
+  text-shadow: 2px 2px cyan;
+}
+#outputs{
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+label{
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.funny-gif{
+  float: right;
+  clear: right;
+}
+
+input{
+  display: inline-block;
+  float: left;
+}
